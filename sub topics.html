@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            background-color: rgb(70, 70, 70);
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img:hover {
+            border: solid rgb(240, 168, 59);
+        }
+
+        .lb {
+            width: 100%;
+            background-color: rgb(200, 175, 157);
+        }
+
+        .lbbox {
+            display: flex;
+            column-gap: 35px;
+            padding-bottom: 20px;
+        }
+
+        .facebook,
+        .insta {
+            background-repeat: no-repeat;
+            background-size: 450px;
+            margin-top: 1px;
+            margin-left: 300px;
+            width: 500px;
+            height: 550px;
+            border: 0px solid;
+            text-align: center;
+        }
+
+        .boxa {
+            margin-left: 450px;
+            margin-bottom: 100px;
+            margin-top: 80px;
+            width: 500px;
+            height: 550px;
+            box-sizing: border-box;
+            border: 0px solid rgb(190, 26, 130);
+            background-color: whitesmoke;
+            text-align: left;
+            padding: 20px;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid;
+        }
+
+        input[type=submit]:hover {
+            background-color: #46b34b;
+        }
+
+        .container1 {
+            width: 100%;
+            height: 620px;
+            background-color: #eed9bd;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 10px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropbtn {
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #ffffff;
+            width: 550px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: black;
+        }
+
+        .policy {
+            display: flex;
+            flex-flow: wrap;
+            /* width: 100%; */
+            height: 600px;
+            background-color: rgb(242, 183, 163);
+            padding-top: 15px;
+            font-size: 20px;
+            padding-left: 15px;
+        }
+
+        .shipping {
+            display: flex;
+            flex-flow: wrap;
+            /* width: 100%; */
+            height: 600px;
+            font-size: 20px;
+            padding-left: 15px;
+            background-color: #edd0aa;
+        }
+
+        .bottom-up {
+            width: 100%;
+            text-align: center;
+            background-color: #edd0aa;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            padding: 1px;
+        }
+
+        footer {
+            background-color: #e8bc82;
+            text-align: center;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 20px;
+            font-size: 20px;
+            /* position: sticky; */
+            /* width: 100%; */
+        }
+
+        @media (max-width: 800px) {
+            .body {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="lookbook" style="width: 100%">
+        <h2>Lookbook</h2>
+        <div class="lb">
+            <h1 style="text-align: center;">Explore Our Collection</h1>
+            <p style="font-size: 18px; text-align: center;">Discover unique designs and colors that are gentle on your
+                skin.
+                Our collection features traditional Indian
+                weaves and drapes that are sure to impress.</p><br>
+            <div class="lbbox">
+                <img src="images/limg1.jpg"
+                width="200px" height="350px" alt="" style="padding-left: 30px;">
+                <img src="images/limg2.jpg"
+                width="200px" height="350px" alt="">
+
+                <img src="images/limg3.jpg"
+                width="200px" height="350px" alt="">
+                <img src="images/limg4.jpg"
+                width="200px" height="350px" alt="">
+
+                <img src="images/limg5.jpg"
+                width="200px" height="350px" alt="">
+                <img src="images/limg6.jpg" width="200px" height="350px"
+                alt="">
+            </div>
+            <div class="lbbox">
+                <img src="images/limg7.jpg"
+                width="200px" height="350px" alt="" style="padding-left: 30px;">
+                <img src="images/limg8.jpg"
+                width="200px" height="350px" alt="">
+
+                <img src="images/limg9.jpg" width="200px" height="350px"
+                alt="">
+                <img src="images/limg10.jpg"width="200px" height="350px"
+                alt="">
+
+                <img src="images/limg11.jpg"
+                width="200px" height="350px" alt="">
+                <img src="images/limg12.jpg"
+                width="200px" height="350px" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="FAQ" style="width: 100%">
+
+        <h2>FAQ</h2>
+        <div class="container1">
+            <p style="font-size: 25px;">Here are answers to some of the most commonly asked questions about My
+                Shopping Studio and our online
+                boutiqueclothing store.<br>
+                If you can't find the answer you're looking for, please don't hesitate to contact us.
+            </p>
+            <h1>Frequently asked questions</h1>
+            <label for="">How do I add a new question & answer?</label>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                <div class="dropdown-content">
+                    <p>To add a new FAQ follow these steps: </p>
+                    <a href="#">1. Manage FAQs from your site dashboard or in the Editor</a>
+                    <a href="#">2. Add a new question & answer</a>
+                    <a href="#">3. Assign your FAQ to a category</a>
+                    <a href="#">4. Save and publish.</a>
+                </div>
+            </div><br><br>
+            <label for="">How do I edit or remove the 'Frequently Asked Questions' title?</label>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                <div class="dropdown-content">
+                    <p> You can edit the title from the FAQ 'Settings' tab in the Editor.
+                        To remove the title from your mobile app go to the 'Site & App' tab in your Owner's app and
+                        customize.
+                    </p>
+                </div>
+            </div><br><br>
+            <label for="">Can I insert an image, video, or GIF in my FAQ?</label>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                <div class="dropdown-content">
+                    <p> Yes. To add media follow these steps: </p>
+                    <a href="#">1. Manage FAQs from your site dashboard or in the Editor</a>
+                    <a href="#">2. Create a new FAQ or edit an existing one</a>
+                    <a href="#">3. From the answer text box click on the video, image or GIF icon</a>
+                    <a href="#">4. Add media from your library and save.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Facebook" style="width: 100%">
+        <h2>Facebook</h2>
+        <div class="facebook"
+            style="background-image: url(images/fbimg.jpg);">
+            <div class="boxa">
+                <h1 style="text-align: center;">SIGN-IN
+                    <hr>
+                </h1>
+                <label for=" ">First Name:</label>
+                <input type="text" size="50px" placeholder="Enter First Name"><br><br>
+                <label for=" ">Last Name:</label>
+                <input type="text" size="52px" placeholder="Enter Surname"><br><br>
+                <lable for=" ">Date Of Birth:</lable>
+                <input type="date" size="60px" placeholder="Enter DD/MM/YYYY"><br><br>
+                <lable for=" ">Gender:</lable>
+                <input type="radio" value="Female" name="gender">Female
+                <input type="radio" value="Male" name="gender">Male
+                <input type="radio" value="Others" name="gender">Others <br><br>
+                <label for=" ">E-Mail:</label>
+                <input type="e-mail" size="54px" placeholder="Entere E-Mail"><br><br>
+                <lable for=" ">Password:</lable>
+                <input type="password" size="52px" placeholder="Enter Password"><br><br>
+                <label for=" ">Ph Number:</label>
+                <input type="Ph no" size="50px" placeholder="Enter Number"><br><br>
+
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </section>
+
+    <section id="Instagram" style="width: 100%">
+        <h2>Instagram</h2>
+        <div class="insta"
+            style="background-image: url(images/instimg.jpg);">
+            <div class="boxa">
+                <h1 style="text-align: center;">SIGN-IN
+                    <hr>
+                </h1>
+                <label for=" ">First Name:</label>
+                <input type="text" size="50px" placeholder="Enter First Name"><br><br>
+                <label for=" ">Last Name:</label>
+                <input type="text" size="52px" placeholder="Enter Surname"><br><br>
+                <lable for=" ">Date Of Birth:</lable>
+                <input type="date" size="60px" placeholder="Enter DD/MM/YYYY"><br><br>
+                <lable for=" ">Gender:</lable>
+                <input type="radio" value="Female" name="gender">Female
+                <input type="radio" value="Male" name="gender">Male
+                <input type="radio" value="Others" name="gender">Others <br><br>
+                <label for=" ">E-Mail:</label>
+                <input type="e-mail" size="54px" placeholder="Entere E-Mail"><br><br>
+                <lable for=" ">Password:</lable>
+                <input type="password" size="52px" placeholder="Enter Password"><br><br>
+                <label for=" ">Ph Number:</label>
+                <input type="Ph no" size="50px" placeholder="Enter Number"><br><br>
+
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </section>
+
+    <section id="Store Policy" style="width: 100%">
+        <h2>Store Policy</h2>
+        <div class="policy">
+            <div>
+                <h3>Customer Care:</h3>
+                I'm a customer care section. I'm a great place to write a long text about your company and your
+                services,
+                and, most importantly, how to contact your store with queries.<br>
+                Writing a detailed customer care policy
+                is a great way to build trust and reassure your customers that they can buy with confidence.
+            </div>
+            <div>
+                <h3>Privacy & Safety:</h3>
+                I'm a privacy & safety policy section. I'm a great place to inform your customers about how you use,
+                store, and protect their personal information.<br>
+                Add details such as how you use third-party banking to
+                verify payment, the way you collect data or when will you contact users after their purchase was
+                completed successfully.<br>
+                Your user's privacy is of the highest importance to your business, so take the time to write an
+                accurate
+                and detailed policy.<br>
+                Use straightforward language to gain their trust and make sure they keep coming back to your site!
+            </div>
+            <div>
+                <h3>Wholesale Inquiries:</h3>
+                I'm a wholesale inquiries section. I'm a great place to inform other retailers about how they can
+                sell
+                your stunning products.<br>
+                Use plain language and give as much information as possible in order to promote
+                your business and take it to the next level!
+            </div>
+            <div>
+                <h3>Payment Methods</h3>
+                <ul>
+                    <li>Credit / Debit Cards</li>
+                    <li>PAYPAL</li>
+                    <li>Offline Payments</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="Shipping & Returns" style="width: 100%">
+        <h2>Shipping & Returns</h2>
+        <div class="shipping">
+            <div>
+                <h3>Shipping Policy:</h3>
+                We offer free shipping for all orders above $100. For orders below $100, a flat rate of $10 will be
+                charged.<br>
+                We use reliable and trusted shipping carriers to ensure that your order reaches you in a safe and timely
+                manner. <br>We strive to process and ship your order as quickly as possible. Once your order has been
+                shipped,
+                you will receive a tracking number to track your shipment. <br>If you have any questions or concerns about
+                your
+                shipment, please contact us and we will be happy to assist you.
+            </div>
+            <div>
+                <h3>Return & Exchange Policy:</h3>
+                We want you to be completely satisfied with your purchase. If for any reason you are not satisfied, we
+                offer
+                hassle-free returns and exchanges.<br> You can initiate a return or exchange within 14 days of receiving
+                your
+                order. The returned item must be in its original condition and packaging. <br>
+                Once we receive the returned
+                item,
+                we will process your refund within 7 days. If you would like to exchange an item, please contact us and
+                we
+                will be happy to assist you.
+            </div>
+        </div>
+    </section>
+
+    <div class="bottom-up">
+        <h2>Stay Updated</h2><br>
+        <label for="">E-Mail:</label>
+        <input type="email" placeholder="Enter E-Mail">
+        <p><a href="#">Subscribe now</a></p>
+    </div>
+
+    <footer>
+        <a href="WEBSITE.html">Home</a>
+        <a href="WEBSITE.html">About Us</a>
+        <a href="WEBSITE.html">Shop</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#Facebook">Facebook</a>
+        <a href="#Instagram">Instagram</a>
+        <a href="#FAQ">FAQ</a>
+        <a href="#Store Policy">Store Policy</a>
+        <a href="#Shipping & Returns">Shipping & Returns</a>
+    </footer>
+</body>
+
+</html>
